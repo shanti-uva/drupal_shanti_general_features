@@ -1,0 +1,10 @@
+name = SHANTI General
+description = Features shared by other SHANTI Features (to prevent conflicts)
+core = 7.x
+package = SHANTI
+version = 7.x-1.0-alpha1
+dependencies[] = features
+dependencies[] = image
+features[features_api][] = api:2
+features[field_base][] = field_general_featured_image
+project path = sites/all/modules
